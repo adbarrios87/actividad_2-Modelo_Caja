@@ -8,6 +8,10 @@
         <title>Modelo de caja Zoo</title>
         <link href ="css/layout.css" rel="stylesheet" media="screen" />
         <link href="css/nav.css" rel="stylesheet" media="screen" />
+        <link href="css/cabecera_galeria.css" rel="stylesheet" media="screen" />
+        <link href="css/banner_medio.css" rel="stylesheet" media="screen" />
+        <link href="css/columns.css" rel="stylesheet" media="screen" />
+        <link href="css/pie_de_pagina.css" rel="stylesheet" media="screen" />
     </head>
     <body>
         <nav id="nav_principal">
@@ -24,16 +28,152 @@
         </nav>
 
         <div id="contenedor_principal">
-            <header id="header principal">
+            <header id="header_principal">
                 <div class= "logo"></div>
                 <form action="#">
                     <label> &#60; Label> Texto &#60;Label> </label> <!-- se utiliza &#60 para representar "<" y evitar que se interprete como inicio de una etiqueta" -->
+                    <input type="text" placeholder="Ingrese valor" />
+                    <button> ok </button>
                 </form>
             </header>
+            <div id="galeria">
+                <!--se repite 10 veces este codigo-->
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+                <figure>
+                    <img alt="Imagen" src="assets/imagen1.png" />
+                    <figcaption>&#60;figcaption</figcaption>
+                </figure>
+            </div>
+            <div class="div_clear_both"></div>
+            <aside id="banner">
+                <h1 class="text text1"> &#60;h1> Titulo &#60;/h1</h1>
+                <h2 class="text text2"> &#60;h2> Texto informativo &#60;/h2</h2>
+            </aside>
+            <section class="col" id="noticias">
+                <header>
+                    <h2>&#60;h2> Titulo &#60;/h2></h2>
+                </header>
+                <article>
+                    <header><h3> &· ;h3> Subtitulo &·3;/h3</h3></header>
+                    <p>
+                        &#60;p> 
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto...
+                        <a href="#">[Link]></a> &#60;/p>
+                    </p>
+                </article>
+                <article>
+                    <header><h3> &· ;h3> Subtitulo &·3;/h3</h3></header>
+                    <p>
+                        &#60;p> 
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto...
+                        <a href="#">[Link]></a> &#60;/p>
+                    </p>
+                </article>
+                <article>
+                    <header><h3> &· ;h3> Subtitulo &·3;/h3</h3></header>
+                    <p>
+                        &#60;p> 
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto...
+                        <a href="#">[Link]></a> &#60;/p>
+                    </p>
+                </article>
+            </section>
+            <section class="col" id="animal_mes">
+                <header>
+                    <h2>&#60;h2> Titulo &#60;/h2></h2>
+                </header>
+                <img tittle="Animal del mes" alt="Animal del mes" src="assets/imagen2.png" />
+                    <p>
+                        &#60;/p>
+                        Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.
+                        Lorem Ipsum ha sido el texto de relleno estandar de las industrias desde el año 1500,
+                        cuando un impresor (N. del T. persona que se dedica a la imprenta). 
+                        <a href="#"> [Link] </a> &#60;/p>
+                    </p>
+            </section>
+            <section class="col" id="redes_sociales">
+                <header>
+                    <h2>&#60;h2> Titulo &#60;/h2></h2>
+                </header>
+                <ul>
+                    <li class="red_mail">
+                        <a href="#"><div class="icon"></div><div>Link</div></a>
+                    </li>
+                    <li class="red_facebook">
+                        <a href="#"><div class="icon"></div><div>Link</div></a>
+                    </li>
+                    <li class="red_twitter">
+                        <a href="#"><div class="icon"></div><div>Link</div></a>
+                    </li>
+                    <li class="red_rss">
+                        <a href="#"><div class="icon"></div><div>Link</div></a>
+                    </li>
+                </ul>
+            </section>
+            <aside id="pinguino"></aside>
         </div>
-
         <footer id="footer_principal">
-
+            <section class="content_principal">
+                <div class="logo"></div>
+                <address>
+                    &#60; address>
+                    Dirección 
+                    <br>
+                    Telefono
+                    <br>
+                    Informacion adicional
+                    &#60;/address>
+                </address>
+                <blockquote>
+                    &#60;blockquote> 
+                    <p>
+                        Lorem Upsum es simplemente el texto de relleno de las i
+                        <br>
+                        Lorem Ipsum ha sido el texto de relleno estandar
+                    </p>
+                    <h3> &#60;/h3> Nombre autor &#60;/h3></h3>
+                    &#60;/blockquote>
+                </blockquote>
+                <div class="linea"> </div>
+                    <small>
+                        &#60;small>&#169 Informacion de derechos de autor &#60;/small>
+                    </small>
+            </section>
         </footer>
     </body>
 </html>

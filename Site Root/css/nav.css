@@ -18,6 +18,7 @@
     font-size: 15px;
     color: black;
 }
-#nav_principal ul li.activo a, #nav_principal ul li:hover a {
+#nav_principal ul li.activo a, 
+#nav_principal ul li :hover a {
     color: blue;
-}"
+}
