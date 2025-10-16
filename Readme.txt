@@ -1,0 +1,1 @@
+Esta actividad corresponde al Modelo de Caja
